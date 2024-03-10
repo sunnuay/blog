@@ -1,0 +1,8 @@
+<header style="user-select:none">
+    <nav>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+    <h1>{{ if .IsHome }} Home {{ else }}{{ .Title }}{{ end }}</h1>
+</header>

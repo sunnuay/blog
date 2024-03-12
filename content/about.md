@@ -1,6 +1,5 @@
 ---
 title: About
-description: About
 ---
 
 Hi, there.

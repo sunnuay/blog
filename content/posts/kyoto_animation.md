@@ -3,6 +3,8 @@ title: Kyoto Animation
 description: 京都动画
 ---
 
+<iframe height=66 src="https://i.y.qq.com/n2/m/outchain/player/index.html?songid=251756952"></iframe>
+
 为什么喜欢京阿尼？一千个梗米心中有一千个答案。我觉得，是因为京阿尼有梦想。
 
 培育梦想，描绘梦想，传递梦想，实现梦想，这是京阿尼的口号。

@@ -13,3 +13,5 @@ The website utilizes the following tools:
 - [Simple.css](https://simplecss.org) A CSS framework that makes semantic HTML look good.
 
 You can use the browser to switch between light and dark mode.
+
+Contact me at <sunnuay@outlook.com>

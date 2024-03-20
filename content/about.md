@@ -14,4 +14,4 @@ The website utilizes the following tools:
 
 You can use the browser to switch between light and dark mode.
 
-Contact me at <sunnuay@outlook.com>
+✉ <sunnuay@outlook.com>

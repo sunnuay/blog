@@ -2,7 +2,7 @@
 <main>
     {{ range .Pages }}
     <section>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ .Description }}
+        <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>{{ .Description }}
     </section>
     {{ end }}
 </main>

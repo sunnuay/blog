@@ -4,7 +4,7 @@ title: About
 
 Hi, there.
 
-I'm sunnuay, a junior student at BUPT, loving ACGN and programming.
+I'm sunnuay, a senior student at BUPT, loving ACGN and programming.
 
 The website utilizes the following tools:
 

@@ -3,11 +3,9 @@ title: Kyoto Animation
 description: 京都动画
 ---
 
-<audio controls style="display:block;margin:auto" preload="none" src="kon.mp3"></audio>
+<audio controls preload="none" src="kon.mp3"></audio>
 
 伟大的动画，就是抹去了时间的刻度，跨越了空间的距离，始终完成了陪伴这两个字。
-
-<div lang="ja">
 
 CITY THE ANIMATION
 
@@ -253,8 +251,34 @@ AIR(ON TV)
 
 ![](02.jpg)
 
-MUNTO
-
 ![](01.jpg)
+<details>
+    <summary>MUNTO</summary>
+    <div data-id="38217" style="white-space:pre-wrap"></div>
+</details>
 
-</div>
+<script>
+    document.querySelectorAll("details").forEach(detail => {
+        detail.addEventListener("toggle", function () {
+            if (this.open) {
+                const div = this.querySelector("div");
+                if (!div.textContent) {
+                    fetch("https://api.bgm.tv/subject/" + div.dataset.id)
+                        .then(response => response.json())
+                        .then(data => {
+                            div.textContent = ""
+                                + data.name_cn + "\n"
+                                + "Bangumi Score: " + data.rating.score + " (" + data.rating.total + " votes)\n"
+                                + "Air Date: " + data.air_date + "\n"
+                                + "Now Date: " + new Date().toISOString().slice(0, 10) + "\n"
+                                + "Summary:\n"
+                                + data.summary;
+                        })
+                        .catch(error => {
+                            div.textContent = "Error";
+                        });
+                }
+            }
+        });
+    });
+</script>

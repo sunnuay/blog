@@ -8,7 +8,7 @@ description: 京都动画
 伟大的动画，就是抹去了时间的刻度，跨越了空间的距离，始终完成了陪伴这两个字。
 
 ![](62.jpg)
-<details><summary>CITY THE ANIMATION椎名</summary>
+<details><summary>CITY THE ANIMATION</summary>
 <div data-id="514358"></div></details>
 
 ![](61.jpg)

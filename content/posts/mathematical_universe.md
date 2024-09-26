@@ -1,6 +1,6 @@
 ---
 title: Mathematical Universe
-description: 数学宇宙 (editing)
+description: 物理的尽头是数学，数学的尽头是哲学
 ---
 
 第一层：超越我们宇宙视界的区域。同样的物理定律，不同的初始条件。

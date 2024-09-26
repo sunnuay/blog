@@ -1,6 +1,6 @@
 ---
-title: Trigonometric Function
-description: 三角函数
+title: Trigonometric Hyperbolic 
+description: 三角函数与双曲函数整理
 math: true
 ---
 

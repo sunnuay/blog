@@ -1,6 +1,6 @@
 ---
 title: Sorting Algorithm
-description: 排序算法整理
+description: 排序算法
 ---
 
 排序算法作为最基本的算法之一，其重要性不言而喻，时至今日仍在被优化改进。

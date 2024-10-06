@@ -1,5 +1,5 @@
 ---
-title: Mathematical Universe
+title: Self Reference
 description: 物理的尽头是数学，数学的尽头是哲学
 ---
 

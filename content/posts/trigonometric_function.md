@@ -4,6 +4,42 @@ description: 三角函数
 math: true
 ---
 
+三角函数包括：正弦，余弦，正切，余切，正割，余割。反三角函数，双曲函数，反双曲函数有类似的定义，性质也都惊人的相似。
+
+双曲函数：
+
+$\sinh x = -i \sin(ix) = \frac{e^x - e^{-x}}{2}$
+
+$\cosh x = \cos(ix) = \frac{e^x + e^{-x}}{2}$
+
+$\tanh x = -i \tan(ix) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
+
+$\coth x = i \cot(ix) = \frac{e^x + e^{-x}}{e^x - e^{-x}}$
+
+$\operatorname{sech} x = \sec(ix) = \frac{2}{e^x + e^{-x}}$
+
+$\operatorname{csch} x = i \csc(ix) = \frac{2}{e^x - e^{-x}}$
+
+![](hyperbolic.svg)
+
+反双曲函数：
+
+$\operatorname{arsinh} x = \ln(x + \sqrt{x^2 + 1})$
+
+$\operatorname{arcosh} x = \ln(x + \sqrt{x^2 - 1})$
+
+$\operatorname{artanh} x = \frac{1}{2}\ln(\frac{1+x}{1-x})$
+
+$\operatorname{arcoth} x = \frac{1}{2}\ln(\frac{x+1}{x-1})$
+
+$\operatorname{arsech} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} - 1})$
+
+$\operatorname{arcsch} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} + 1})$
+
+![](inverse.svg)
+
+导数与积分：
+
 $(\sin x)^{\prime} = \cos x$
 
 $(\cos x)^{\prime} = -\sin x$

@@ -1,6 +1,7 @@
 ---
 title: Self Reference
 description: 物理的尽头是数学，数学的尽头是哲学
+math: true
 ---
 
 ![](herta.webp)
@@ -13,6 +14,52 @@ description: 物理的尽头是数学，数学的尽头是哲学
 
 人类的大脑通过复杂的神经元网络涌现了意识。意识可能源于自指吗？泰格马克认为，物理实在即是数学结构，并提出了四层平行宇宙假说。宇宙可能源于自指吗？
 
-平行宇宙第一层：超越我们宇宙视界的区域。同样的物理定律，不同的初始条件。第二层：其他暴涨结束后的泡泡。同样的基本物理定律，但参数、粒子和维度可能不同。第三层：量子物理学的多世界。与第二层相同。第四层：其他数学结构。拥有不同的基本物理定律。
+第一层：超越我们宇宙视界的区域。同样的物理定律，不同的初始条件。
+
+第二层：其他暴涨结束后的泡泡。同样的基本物理定律，但参数、粒子和维度可能不同。
+
+第三层：量子物理学的多世界。与第二层相同。
+
+第四层：其他数学结构。拥有不同的基本物理定律。
 
 未完待续。
+
+- Axiom of extensionality (外延公理)
+
+  $\forall x \forall y [\forall z (z \in x \leftrightarrow z \in y) \rightarrow x = y]$
+
+- Axiom of regularity (正则公理)
+
+  $\forall x [x \neq \emptyset \rightarrow \exists y (y \in x \wedge y \cap x = \emptyset)]$
+
+- Axiom schema of specification (分离公理模式)
+
+  For any formula $\phi(x)$ with free variable $x$:
+
+  $\forall z \exists y \forall x [x \in y \leftrightarrow (x \in z \wedge \phi(x))]$
+
+- Axiom of pairing (配对公理)
+
+  $\forall x \forall y \exists z \forall w (w \in z \leftrightarrow w = x \vee w = y)$
+
+- Axiom of union (并集公理)
+
+  $\forall x \exists y \forall z [z \in y \leftrightarrow \exists w (z \in w \wedge w \in x)]$
+
+- Axiom schema of replacement (替换公理模式)
+
+  For any formula $\phi(x,y)$ with free variables $x$ and $y$:
+
+  $\forall A [\forall x \in A \exists! y \phi(x,y) \rightarrow \exists B \forall y (y \in B \leftrightarrow \exists x \in A \phi(x,y))]$
+
+- Axiom of infinity (无穷公理)
+
+  $\exists x [\emptyset \in x \wedge \forall y (y \in x \rightarrow y \cup \{y\} \in x)]$
+
+- Axiom of power set (幂集公理)
+
+  $\forall x \exists y \forall z (z \subseteq x \rightarrow z \in y)$
+
+- Axiom of choice (选择公理)
+
+  $\forall x [\forall y \in x (y \neq \emptyset) \rightarrow \exists f : x \rightarrow \bigcup x \forall y \in x (f(y) \in y)]$

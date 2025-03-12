@@ -244,7 +244,7 @@ void bucket_sort(int arr[], int len)
             max = arr[i];
         else if (arr[i] < min)
             min = arr[i];
-    const int num = 10;
+    #define num 10
     int gap = (max - min) / num + 1;
     int bkt[num][len], cnt[num] = {0};
     for (int i = 0; i < len; i++)

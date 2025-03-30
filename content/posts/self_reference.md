@@ -1,6 +1,6 @@
 ---
 title: Self Reference
-description: 本体论，认识论，怀疑论，先验论，同一论
+description: 自我指涉：从康德到哥德尔
 ---
 
 ![](herta.webp)

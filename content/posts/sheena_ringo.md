@@ -1,10 +1,15 @@
 ---
 title: Sheena Ringo
-description: 椎名林檎
+description: 椎名林檎：永远的苹果女王
 lang: ja
 ---
 
 > 他の追随を許さない唯一無比の世界を表現する音楽家。
+
+<audio controls preload="none" src="ringo.mp3"></audio>
+: 宗教 - 椎名林檎
+
+---
 
 ![](1.webp)
 - **無罪モラトリアム**

@@ -1,10 +1,10 @@
 ---
 title: Trigonometric Function 
-description: 正弦，余弦，正切，余切，正割，余割
+description: 三角函数：正弦，余弦，正切，余切，正割，余割
 math: true
 ---
 
-双曲函数：
+**Hyperbolic Function:**
 
 $\sinh x = -i \sin(ix) = \frac{e^x - e^{-x}}{2}$
 
@@ -20,7 +20,7 @@ $\operatorname{csch} x = i \csc(ix) = \frac{2}{e^x - e^{-x}}$
 
 ![](hyperbolic.svg)
 
-反双曲函数：
+**Inverse Hyperbolic Function:**
 
 $\operatorname{arsinh} x = \ln(x + \sqrt{x^2 + 1})$
 
@@ -36,7 +36,7 @@ $\operatorname{arcsch} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} + 1})$
 
 ![](inverse.svg)
 
-导数与积分：
+---
 
 $(\sin x)^{\prime} = \cos x$
 

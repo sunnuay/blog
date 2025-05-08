@@ -12,4 +12,4 @@ This website is built with:
 - [Simple.css](https://github.com/kevquirk/simple.css/releases/tag/v2.3.0) - A CSS framework that makes semantic HTML look good.
 - [KaTeX](https://github.com/KaTeX/KaTeX/releases/tag/v0.16.0) - The fastest math typesetting library for the web.
 
-✉ <sunnuay@outlook.com>
+✉ <a@sunnuay.com>

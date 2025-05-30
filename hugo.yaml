@@ -1,21 +1,22 @@
-baseURL: https://sunnuay.com/
-title: sunnuay
+baseURL: https://nyan.fan/
+title: Nyan
 theme: simple
 
 menu:
   main:
-    - identifier: Home
-      name: Home
-      url: /
-      weight: 1
-    - identifier: Posts
-      name: Posts
-      url: /posts/
-      weight: 2
     - identifier: About
       name: About
       url: /About/
+      weight: 1
+    - identifier: Nyan
+      name: Nyan
+      url: /
+      weight: 2
+    - identifier: Posts
+      name: Posts
+      url: /posts/
       weight: 3
+
 
 markup:
   goldmark:

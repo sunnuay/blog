@@ -4,7 +4,7 @@ title: About
 
 Hi, there.
 
-I am sunnuay, loving ACGN. Here is my resume in [English](/english.pdf) and [Chinese](/chinese.pdf).
+Here is my resume in [English](/english.pdf) and [Chinese](/chinese.pdf).
 
 This website is built with:
 
@@ -12,4 +12,4 @@ This website is built with:
 - [Simple.css](https://github.com/kevquirk/simple.css/releases/tag/v2.3.0) - A CSS framework that makes semantic HTML look good.
 - [KaTeX](https://github.com/KaTeX/KaTeX/releases/tag/v0.16.0) - The fastest math typesetting library for the web.
 
-✉ <a@sunnuay.com>
+✉ <a@nyan.fan>

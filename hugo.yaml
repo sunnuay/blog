@@ -4,19 +4,15 @@ theme: simple
 
 menu:
   main:
-    - identifier: About
-      name: About
-      url: /About/
-      weight: 1
-    - identifier: Nyan
+    - weight: 1
       name: Nyan
       url: /
-      weight: 2
-    - identifier: Posts
+    - weight: 2
       name: Posts
-      url: /posts/
-      weight: 3
-
+      url: /Posts/
+    - weight: 3
+      name: About
+      url: /About/
 
 markup:
   goldmark:

@@ -2,9 +2,11 @@
 title: About
 ---
 
-Hi, there.
+Welcome!
 
-Here is my resume in [English](/english.pdf) and [Chinese](/chinese.pdf).
+I am Sun Yuan, a fan of ACG.
+
+Here is my resume: [English](english.pdf) / [Chinese](chinese.pdf).
 
 This website is built with:
 

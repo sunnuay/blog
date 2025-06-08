@@ -18,3 +18,5 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    style: hrdark

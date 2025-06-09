@@ -16,6 +16,16 @@ menu:
 
 markup:
   goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $
+        enable: true
     renderer:
       unsafe: true
   highlight:

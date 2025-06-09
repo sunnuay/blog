@@ -3,20 +3,4 @@
     <meta name="viewport" content="width=device-width">
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="/simple.min.css">
-    {{ if .Params.Math }}
-    <link rel="stylesheet" href="/katex/katex.min.css">
-    <script defer src="/katex/katex.min.js"></script>
-    <script defer src="/katex/copy-tex.min.js"></script>
-    <script defer src="/katex/auto-render.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$$", right: "$$", display: true },
-                    { left: "$", right: "$", display: false }
-                ]
-            });
-        });
-    </script>
-    {{ end }}
 </head>

@@ -3,13 +3,6 @@ title: Kyoto Animation
 description: 京都动画：培育梦想，描绘梦想，传递梦想，实现梦想
 ---
 
-> 伟大的动画，就是抹去了时间的刻度，跨越了空间的距离，始终完成了陪伴这两个字。
-
-<audio controls preload="none" src="kon.mp3"></audio>
-: 相遇天使 - 轻音少女
-
----
-
 ![](62.jpg)
 <details><summary lang=ja>CITY THE ANIMATION</summary>
 <div data-id="514358"></div></details>

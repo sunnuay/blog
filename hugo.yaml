@@ -18,6 +18,7 @@ markup:
   goldmark:
     extensions:
       passthrough:
+        enable: true
         delimiters:
           block:
           - - $$
@@ -25,8 +26,5 @@ markup:
           inline:
           - - $
             - $
-        enable: true
-    renderer:
-      unsafe: true
   highlight:
     style: hrdark

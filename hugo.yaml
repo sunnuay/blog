@@ -1,6 +1,6 @@
 baseURL: https://nyan.fan/
 title: Nyan
-theme: simple
+theme: basic
 
 menu:
   main:

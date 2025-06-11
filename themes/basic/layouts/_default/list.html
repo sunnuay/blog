@@ -2,7 +2,10 @@
 <main>
     {{ range .Pages }}
     <section>
-        <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+        <p>
+            <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+            <small style="float:right">{{ .Date.Format "2006-01-02" }}</small>
+        </p>
         <div>{{ .Description }}</div>
     </section>
     {{ end }}

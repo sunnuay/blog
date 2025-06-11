@@ -1,6 +1,7 @@
 ---
 title: Sheena Ringo
-description: 椎名林檎：永远的苹果女王
+date: 2025-03-01
+description: about sheena ringo
 lang: ja
 ---
 

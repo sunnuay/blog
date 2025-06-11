@@ -1,6 +1,8 @@
 ---
 title: Self Reference
-description: 自我指涉：从康德到哥德尔
+date: 2025-02-01
+description: about self reference
+lang: zh
 ---
 
 ![](herta.webp)

@@ -1,6 +1,7 @@
 ---
 title: Trigonometric Function 
-description: 三角函数：正弦，余弦，正切，余切，正割，余割
+date: 2025-05-01
+description: about trigonometric function
 ---
 
 **Hyperbolic Function:**

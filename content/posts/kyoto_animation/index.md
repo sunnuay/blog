@@ -1,6 +1,7 @@
 ---
 title: Kyoto Animation
-description: 京都动画：培育梦想，描绘梦想，传递梦想，实现梦想
+date: 2025-01-01
+description: about kyoto animation
 lang: ja
 ---
 

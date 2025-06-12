@@ -1,6 +1,6 @@
 baseURL: https://nyan.fan/
 title: Nyan
-theme: css
+theme: hugocss
 defaultContentLanguage: en
 
 params:

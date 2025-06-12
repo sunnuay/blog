@@ -2,7 +2,7 @@
 title: Self Reference
 date: 2025-02-01
 description: about self reference
-lang: zh
+language: zh
 ---
 
 ![](herta.webp)

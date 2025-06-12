@@ -2,7 +2,7 @@
 title: Sheena Ringo
 date: 2025-03-01
 description: about sheena ringo
-lang: ja
+language: ja
 ---
 
 ![](1.webp)

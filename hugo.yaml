@@ -1,9 +1,9 @@
 baseURL: https://nyan.fan/
 title: Nyan
-theme: basic
+theme: css
+defaultContentLanguage: en
 
 params:
-  lang: en
   css: simple.min.css
 
 menu:

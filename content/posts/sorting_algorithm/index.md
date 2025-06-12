@@ -2,7 +2,7 @@
 title: Sorting Algorithm
 date: 2025-04-01
 description: about sorting algorithm
-lang: zh
+language: zh
 ---
 
 排序算法作为最基本的算法之一，其重要性不言而喻，时至今日仍在被优化改进。

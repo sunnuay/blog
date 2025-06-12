@@ -2,7 +2,7 @@
 title: Kyoto Animation
 date: 2025-01-01
 description: about kyoto animation
-lang: ja
+language: ja
 ---
 
 ![](62.jpg) \

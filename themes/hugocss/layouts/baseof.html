@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>{{ .Title }}</title>
+    <title>{{ .Title | default .Site.Title }}</title>
     <link rel="stylesheet" href="{{ .Site.Params.css }}">
 </head>
 
@@ -15,7 +15,7 @@
             <a href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
         </nav>
-        <h1>{{ .Title }}</h1>
+        <h1>{{ .Title | default .Site.Title }}</h1>
     </header>
     <main>{{ block "main" . }}{{ end }}</main>
 </body>

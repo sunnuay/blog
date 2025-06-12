@@ -1,5 +1,5 @@
 ---
-title: Trigonometric Function 
+title: Trigonometric Function
 date: 2025-05-01
 description: about trigonometric function
 ---

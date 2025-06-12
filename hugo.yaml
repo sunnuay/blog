@@ -1,34 +1,31 @@
+---
 baseURL: https://nyan.fan/
-title: Nyan
-theme: hugocss
 defaultContentLanguage: en
-
-params:
-  css: simple.min.css
-
-menu:
-  main:
-    - weight: 1
-      name: Nyan
-      url: /
-    - weight: 2
-      name: Posts
-      url: /Posts/
-    - weight: 3
-      name: About
-      url: /About/
-
 markup:
   goldmark:
     extensions:
       passthrough:
-        enable: true
         delimiters:
           block:
-          - - $$
-            - $$
+            - - $$
+              - $$
           inline:
-          - - $
-            - $
+            - - $
+              - $
+        enable: true
   highlight:
     style: hrdark
+menu:
+  main:
+    - name: Nyan
+      url: /
+      weight: 1
+    - name: Posts
+      url: /posts
+      weight: 2
+    - name: About
+      url: /about
+      weight: 3
+params:
+  css: /simple.min.css
+theme: hugocss

@@ -1,6 +1,1 @@
-{{ if eq .Type "block" }}
-  {{ $opts := dict "displayMode" true }}
-  {{ transform.ToMath .Inner $opts }}
-{{ else }}
-  {{ transform.ToMath .Inner }}
-{{ end }}
+{{ transform.ToMath .Inner (dict "displayMode" (eq .Type "block")) }}

@@ -1,13 +1,11 @@
 {{ define "main" }}
-<main>
-    {{ range .Pages }}
-    <section>
-        <p>
-            <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
-            <small style="float:right">{{ .Date.Format "2006-01-02" }}</small>
-        </p>
-        <div>{{ .Description }}</div>
-    </section>
-    {{ end }}
-</main>
+{{ range .Pages }}
+<section>
+    <div>
+        <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
+        <small style="float:right">{{ .Date.Format "2006-01-02" }}</small>
+    </div>
+    <div>{{ .Description }}</div>
+</section>
+{{ end }}
 {{ end }}

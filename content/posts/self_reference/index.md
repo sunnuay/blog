@@ -1,13 +1,13 @@
 ---
 title: Self Reference
-date: 2025-02-01
-description: about self reference
+date: 2025-04-01
+description: From Kant to Hilbert
 language: zh
 ---
 
 ![](herta.webp)
 
-**任何自洽的形式系统，只要蕴涵皮亚诺算术公理，就可以在其中构造在体系中不能被证明的真命题，因此通过推理演绎不能得到所有真命题（即体系是不完备的）。**
+任何自洽的形式系统，只要蕴涵皮亚诺算术公理，就可以在其中构造在体系中不能被证明的真命题，因此通过推理演绎不能得到所有真命题（即体系是不完备的）。
 
 |基本符号|哥德尔数|含义|
 |-|-|-|

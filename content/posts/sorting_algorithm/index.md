@@ -1,7 +1,7 @@
 ---
 title: Sorting Algorithm
-date: 2025-04-01
-description: about sorting algorithm
+date: 2023-06-09
+description: A note on sorting algorithm
 language: zh
 ---
 

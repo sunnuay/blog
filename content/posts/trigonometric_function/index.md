@@ -1,26 +1,28 @@
 ---
 title: Trigonometric Function
-date: 2025-05-01
-description: about trigonometric function
+date: 2025-01-01
+description: Definition and calculus
 ---
 
-**Hyperbolic Function:**
+**Trigonometric Function & Inverse Trigonometric Function**
 
-$\sinh x = -i \sin(ix) = \frac{e^x - e^{-x}}{2}$
+$\sin x \ \cos x \ \tan x \ \cot x \ \sec x \ \csc x$
 
-$\cosh x = \cos(ix) = \frac{e^x + e^{-x}}{2}$
+$\arcsin x \ \arccos x \ \arctan x \ \operatorname{arccot} x \ \operatorname{arcsec} x \ \operatorname{arccsc} x$
 
-$\tanh x = -i \tan(ix) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
+**Hyperbolic Function & Inverse Hyperbolic Function**
 
-$\coth x = i \cot(ix) = \frac{e^x + e^{-x}}{e^x - e^{-x}}$
+$\sinh x = \frac{e^x - e^{-x}}{2}$
 
-$\operatorname{sech} x = \sec(ix) = \frac{2}{e^x + e^{-x}}$
+$\cosh x = \frac{e^x + e^{-x}}{2}$
 
-$\operatorname{csch} x = i \csc(ix) = \frac{2}{e^x - e^{-x}}$
+$\tanh x = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
 
-![](hyperbolic.svg)
+$\coth x = \frac{e^x + e^{-x}}{e^x - e^{-x}}$
 
-**Inverse Hyperbolic Function:**
+$\operatorname{sech} x = \frac{2}{e^x + e^{-x}}$
+
+$\operatorname{csch} x = \frac{2}{e^x - e^{-x}}$
 
 $\operatorname{arsinh} x = \ln(x + \sqrt{x^2 + 1})$
 
@@ -34,9 +36,12 @@ $\operatorname{arsech} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} - 1})$
 
 $\operatorname{arcsch} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} + 1})$
 
+![](hyperbolic.svg)
+
+
 ![](inverse.svg)
 
----
+**Differentiation & Integration**
 
 $(\sin x)^{\prime} = \cos x$
 

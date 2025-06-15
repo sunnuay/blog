@@ -4,40 +4,33 @@ date: 2025-01-01
 description: Definition and calculus
 ---
 
-**Trigonometric Function & Inverse Trigonometric Function**
+**Hyperbolic & Inverse Function**
 
-$\sin x \ \cos x \ \tan x \ \cot x \ \sec x \ \csc x$
+$\sinh x = -i\sin ix =\frac{e^x - e^{-x}}{2}$
 
-$\arcsin x \ \arccos x \ \arctan x \ \operatorname{arccot} x \ \operatorname{arcsec} x \ \operatorname{arccsc} x$
+$\cosh x = \cos ix = \frac{e^x + e^{-x}}{2}$
 
-**Hyperbolic Function & Inverse Hyperbolic Function**
+$\tanh x = -i\tan ix = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
 
-$\sinh x = \frac{e^x - e^{-x}}{2}$
+$\coth x = i\cot ix = \frac{e^x + e^{-x}}{e^x - e^{-x}}$
 
-$\cosh x = \frac{e^x + e^{-x}}{2}$
+$\operatorname{sech} x = \sec ix = \frac{2}{e^x + e^{-x}}$
 
-$\tanh x = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
+$\operatorname{csch} x = i\csc ix = \frac{2}{e^x - e^{-x}}$
 
-$\coth x = \frac{e^x + e^{-x}}{e^x - e^{-x}}$
+$\operatorname{arsinh} x = -i\operatorname{arcsin} ix = \ln(x + \sqrt{x^2 + 1})$
 
-$\operatorname{sech} x = \frac{2}{e^x + e^{-x}}$
+$\operatorname{arcosh} x = i\operatorname{arccos} x = \ln(x + \sqrt{x^2 - 1})$
 
-$\operatorname{csch} x = \frac{2}{e^x - e^{-x}}$
+$\operatorname{artanh} x = -i\operatorname{arctan} ix  = \frac{1}{2}\ln(\frac{1+x}{1-x})$
 
-$\operatorname{arsinh} x = \ln(x + \sqrt{x^2 + 1})$
+$\operatorname{arcoth} x = i\operatorname{arccot} ix = \frac{1}{2}\ln(\frac{x+1}{x-1})$
 
-$\operatorname{arcosh} x = \ln(x + \sqrt{x^2 - 1})$
+$\operatorname{arsech} x = i\operatorname{arcsec} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} - 1})$
 
-$\operatorname{artanh} x = \frac{1}{2}\ln(\frac{1+x}{1-x})$
-
-$\operatorname{arcoth} x = \frac{1}{2}\ln(\frac{x+1}{x-1})$
-
-$\operatorname{arsech} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} - 1})$
-
-$\operatorname{arcsch} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} + 1})$
+$\operatorname{arcsch} x = i\operatorname{arccsc} ix = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} + 1})$
 
 ![](hyperbolic.svg)
-
 
 ![](inverse.svg)
 

@@ -6,8 +6,8 @@ Welcome!
 
 I'm Sun Yuan, an anime fan.
 
-My resume: [English](/about/english.pdf) / [Chinese](/about/chinese.pdf)
+My resume ~ [English](/about/english.pdf) / [Chinese](/about/chinese.pdf)
 
-Powered by: [Hugo](https://github.com/gohugoio/hugo/releases/tag/v0.147.8) / [Simple.css](https://github.com/kevquirk/simple.css/releases/tag/v2.3.7)
+Powered by ~ [Hugo](https://github.com/gohugoio/hugo/releases/tag/v0.147.9) / [Simple.css](https://github.com/kevquirk/simple.css/releases/tag/v2.3.7)
 
-Contact me: <a@nyan.fan>
+Contact me ~ <a@nyan.fan>

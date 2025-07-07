@@ -6,29 +6,29 @@ description: Definition and calculus
 
 **Hyperbolic & Inverse Function**
 
-$\sinh x = -i\sin ix =\frac{e^x - e^{-x}}{2}$
+$\sinh z = -i\sin iz =\frac{e^z - e^{-z}}{2}$
 
-$\cosh x = \cos ix = \frac{e^x + e^{-x}}{2}$
+$\cosh z = \cos iz = \frac{e^z + e^{-z}}{2}$
 
-$\tanh x = -i\tan ix = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
+$\tanh z = -i\tan iz = \frac{e^z - e^{-z}}{e^z + e^{-z}}$
 
-$\coth x = i\cot ix = \frac{e^x + e^{-x}}{e^x - e^{-x}}$
+$\coth z = i\cot iz = \frac{e^z + e^{-z}}{e^z - e^{-z}}$
 
-$\operatorname{sech} x = \sec ix = \frac{2}{e^x + e^{-x}}$
+$\operatorname{sech} z = \sec iz = \frac{2}{e^z + e^{-z}}$
 
-$\operatorname{csch} x = i\csc ix = \frac{2}{e^x - e^{-x}}$
+$\operatorname{csch} z = i\csc iz = \frac{2}{e^z - e^{-z}}$
 
-$\operatorname{arsinh} x = -i\operatorname{arcsin} ix = \ln(x + \sqrt{x^2 + 1})$
+$\operatorname{arsinh} z = \ln(z + \sqrt{z^2 + 1})$
 
-$\operatorname{arcosh} x = i\operatorname{arccos} x = \ln(x + \sqrt{x^2 - 1})$
+$\operatorname{arcosh} z = \ln(z + \sqrt{z^2 - 1})$
 
-$\operatorname{artanh} x = -i\operatorname{arctan} ix  = \frac{1}{2}\ln(\frac{1+x}{1-x})$
+$\operatorname{artanh} z = \frac{1}{2}\ln(\frac{1+z}{1-z})$
 
-$\operatorname{arcoth} x = i\operatorname{arccot} ix = \frac{1}{2}\ln(\frac{x+1}{x-1})$
+$\operatorname{arcoth} z = \frac{1}{2}\ln(\frac{z+1}{z-1})$
 
-$\operatorname{arsech} x = i\operatorname{arcsec} x = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} - 1})$
+$\operatorname{arsech} z = \ln(\frac{1}{z} + \sqrt{\frac{1}{z^2} - 1})$
 
-$\operatorname{arcsch} x = i\operatorname{arccsc} ix = \ln(\frac{1}{x} + \sqrt{\frac{1}{x^2} + 1})$
+$\operatorname{arcsch} z = \ln(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$
 
 ![](hyperbolic.svg)
 

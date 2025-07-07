@@ -28,5 +28,5 @@ menu:
       weight: 3
 params:
   css: /simple.min.css
-theme: hugocss
+theme: basic
 title: Nyan

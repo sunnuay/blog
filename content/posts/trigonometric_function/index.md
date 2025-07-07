@@ -48,18 +48,6 @@ $(\sec x)^{\prime} = \sec x \tan x$
 
 $(\csc x)^{\prime} = -\csc x \cot x$
 
-$(\arcsin x)^{\prime} = \frac{1}{\sqrt{1-x^2}}$
-
-$(\arccos x)^{\prime} = -\frac{1}{\sqrt{1-x^2}}$
-
-$(\arctan x)^{\prime} = \frac{1}{1+x^2}$
-
-$(\operatorname{arccot} x)^{\prime} = -\frac{1}{1+x^2}$
-
-$(\operatorname{arcsec} x)^{\prime} = \frac{1}{|x|\sqrt{x^2-1}}$
-
-$(\operatorname{arccsc} x)^{\prime} = -\frac{1}{|x|\sqrt{x^2-1}}$
-
 $(\sinh x)^{\prime} = \cosh x$
 
 $(\cosh x)^{\prime} = \sinh x$
@@ -71,6 +59,18 @@ $(\coth x)^{\prime} = -\operatorname{csch}^2 x$
 $(\operatorname{sech} x)^{\prime} = -\operatorname{sech} x \tanh x$
 
 $(\operatorname{csch} x)^{\prime} = -\operatorname{csch} x \coth x$
+
+$(\arcsin x)^{\prime} = \frac{1}{\sqrt{1-x^2}}$
+
+$(\arccos x)^{\prime} = -\frac{1}{\sqrt{1-x^2}}$
+
+$(\arctan x)^{\prime} = \frac{1}{1+x^2}$
+
+$(\operatorname{arccot} x)^{\prime} = -\frac{1}{1+x^2}$
+
+$(\operatorname{arcsec} x)^{\prime} = \frac{1}{|x|\sqrt{x^2-1}}$
+
+$(\operatorname{arccsc} x)^{\prime} = -\frac{1}{|x|\sqrt{x^2-1}}$
 
 $(\operatorname{arsinh} x)^{\prime} = \frac{1}{\sqrt{x^2+1}}$
 
@@ -96,18 +96,6 @@ $\int \sec x \ dx = \ln |\sec x + \tan x| + C$
 
 $\int \csc x \ dx = -\ln |\csc x + \cot x| + C$
 
-$\int \arcsin x \ dx = x \arcsin x + \sqrt{1-x^2} + C$
-
-$\int \arccos x \ dx = x \arccos x - \sqrt{1-x^2} + C$
-
-$\int \arctan x \ dx = x \arctan x - \frac{1}{2} \ln(1+x^2) + C$
-
-$\int \operatorname{arccot} x \ dx = x \operatorname{arccot} x + \frac{1}{2} \ln(1+x^2) + C$
-
-$\int \operatorname{arcsec} x \ dx = x \operatorname{arcsec} x - \operatorname{arcosh} |x| + C$
-
-$\int \operatorname{arccsc} x \ dx = x \operatorname{arccsc} x + \operatorname{arcosh} |x| + C$
-
 $\int \sinh x \ dx = \cosh x + C$
 
 $\int \cosh x \ dx = \sinh x + C$
@@ -119,6 +107,18 @@ $\int \coth x \ dx = \ln|\sinh x| + C$
 $\int \operatorname{sech} x \ dx = \arctan(\sinh x) + C$
 
 $\int \operatorname{csch} x \ dx = -\ln|\operatorname{csch} x + \coth x| + C$
+
+$\int \arcsin x \ dx = x \arcsin x + \sqrt{1-x^2} + C$
+
+$\int \arccos x \ dx = x \arccos x - \sqrt{1-x^2} + C$
+
+$\int \arctan x \ dx = x \arctan x - \frac{1}{2} \ln(1+x^2) + C$
+
+$\int \operatorname{arccot} x \ dx = x \operatorname{arccot} x + \frac{1}{2} \ln(1+x^2) + C$
+
+$\int \operatorname{arcsec} x \ dx = x \operatorname{arcsec} x - \operatorname{arcosh} |x| + C$
+
+$\int \operatorname{arccsc} x \ dx = x \operatorname{arccsc} x + \operatorname{arcosh} |x| + C$
 
 $\int \operatorname{arsinh} x \ dx = x \operatorname{arsinh} x - \sqrt{x^2+1} + C$
 

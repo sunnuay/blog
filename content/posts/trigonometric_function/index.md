@@ -1,88 +1,92 @@
 ---
 title: Trigonometric Function
 date: 2025-01-01
-description: Definition and calculus
+description: Extensions and calculus
 ---
 
-**Hyperbolic & Inverse Function**
+**Hyperbolic Function**
 
-$\sinh z = -i\sin iz =\frac{e^z - e^{-z}}{2}$
+$\sinh z = \frac{e^z - e^{-z}}{2} = -i \sin iz$
 
-$\cosh z = \cos iz = \frac{e^z + e^{-z}}{2}$
+$\cosh z = \frac{e^z + e^{-z}}{2} = \cos iz$
 
-$\tanh z = -i\tan iz = \frac{e^z - e^{-z}}{e^z + e^{-z}}$
+$\tanh z = \frac{e^z - e^{-z}}{e^z + e^{-z}} = -i \tan iz$
 
-$\coth z = i\cot iz = \frac{e^z + e^{-z}}{e^z - e^{-z}}$
+$\coth z = \frac{e^z + e^{-z}}{e^z - e^{-z}} = i \cot iz$
 
-$\operatorname{sech} z = \sec iz = \frac{2}{e^z + e^{-z}}$
+$\operatorname{sech} z = \frac{2}{e^z + e^{-z}} = \sec iz$
 
-$\operatorname{csch} z = i\csc iz = \frac{2}{e^z - e^{-z}}$
-
-$\operatorname{arsinh} z = \ln(z + \sqrt{z^2 + 1})$
-
-$\operatorname{arcosh} z = \ln(z + \sqrt{z^2 - 1})$
-
-$\operatorname{artanh} z = \frac{1}{2}\ln(\frac{1+z}{1-z})$
-
-$\operatorname{arcoth} z = \frac{1}{2}\ln(\frac{z+1}{z-1})$
-
-$\operatorname{arsech} z = \ln(\frac{1}{z} + \sqrt{\frac{1}{z^2} - 1})$
-
-$\operatorname{arcsch} z = \ln(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$
+$\operatorname{csch} z = \frac{2}{e^z - e^{-z}} = i \csc iz$
 
 ![](hyperbolic.svg)
 
+**Inverse Hyperbolic Function**
+
+$\operatorname{arsinh} z = \operatorname{Ln}(z + \sqrt{z^2 + 1})$
+
+$\operatorname{arcosh} z = \operatorname{Ln}(z + \sqrt{z + 1} \sqrt{z - 1})$
+
+$\operatorname{artanh} z = \frac{1}{2} \operatorname{Ln}(\frac{1 + z}{1 - z})$
+
+$\operatorname{arcoth} z = \frac{1}{2} \operatorname{Ln}(\frac{z + 1}{z - 1})$
+
+$\operatorname{arsech} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z} + 1} \sqrt{\frac{1}{z} - 1})$
+
+$\operatorname{arcsch} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$
+
 ![](inverse.svg)
 
-**Differentiation & Integration**
+**Differentiation**
 
-$(\sin x)^{\prime} = \cos x$
+$(\sin x)' = \cos x$
 
-$(\cos x)^{\prime} = -\sin x$
+$(\cos x)' = -\sin x$
 
-$(\tan x)^{\prime} = \sec^2 x$
+$(\tan x)' = \sec^2 x$
 
-$(\cot x)^{\prime} = -\csc^2 x$
+$(\cot x)' = -\csc^2 x$
 
-$(\sec x)^{\prime} = \sec x \tan x$
+$(\sec x)' = \sec x \tan x$
 
-$(\csc x)^{\prime} = -\csc x \cot x$
+$(\csc x)' = -\csc x \cot x$
 
-$(\sinh x)^{\prime} = \cosh x$
+$(\sinh x)' = \cosh x$
 
-$(\cosh x)^{\prime} = \sinh x$
+$(\cosh x)' = \sinh x$
 
-$(\tanh x)^{\prime} = \operatorname{sech}^2 x$
+$(\tanh x)' = \operatorname{sech}^2 x$
 
-$(\coth x)^{\prime} = -\operatorname{csch}^2 x$
+$(\coth x)' = -\operatorname{csch}^2 x$
 
-$(\operatorname{sech} x)^{\prime} = -\operatorname{sech} x \tanh x$
+$(\operatorname{sech} x)' = -\operatorname{sech} x \tanh x$
 
-$(\operatorname{csch} x)^{\prime} = -\operatorname{csch} x \coth x$
+$(\operatorname{csch} x)' = -\operatorname{csch} x \coth x$
 
-$(\arcsin x)^{\prime} = \frac{1}{\sqrt{1-x^2}}$
+$(\arcsin x)' = \frac{1}{\sqrt{1 - x^2}}$
 
-$(\arccos x)^{\prime} = -\frac{1}{\sqrt{1-x^2}}$
+$(\arccos x)' = -\frac{1}{\sqrt{1 - x^2}}$
 
-$(\arctan x)^{\prime} = \frac{1}{1+x^2}$
+$(\arctan x)' = \frac{1}{1 + x^2}$
 
-$(\operatorname{arccot} x)^{\prime} = -\frac{1}{1+x^2}$
+$(\operatorname{arccot} x)' = -\frac{1}{1 + x^2}$
 
-$(\operatorname{arcsec} x)^{\prime} = \frac{1}{|x|\sqrt{x^2-1}}$
+$(\operatorname{arcsec} x)' = \frac{1}{|x| \sqrt{x^2 - 1}}$
 
-$(\operatorname{arccsc} x)^{\prime} = -\frac{1}{|x|\sqrt{x^2-1}}$
+$(\operatorname{arccsc} x)' = -\frac{1}{|x| \sqrt{x^2 - 1}}$
 
-$(\operatorname{arsinh} x)^{\prime} = \frac{1}{\sqrt{x^2+1}}$
+$(\operatorname{arsinh} x)' = \frac{1}{\sqrt{x^2 + 1}}$
 
-$(\operatorname{arcosh} x)^{\prime} = \frac{1}{\sqrt{x^2-1}}$
+$(\operatorname{arcosh} x)' = \frac{1}{\sqrt{x^2 - 1}}$
 
-$(\operatorname{artanh} x)^{\prime} = \frac{1}{1-x^2}$
+$(\operatorname{artanh} x)' = \frac{1}{1 - x^2}$
 
-$(\operatorname{arcoth} x)^{\prime} = \frac{1}{1-x^2}$
+$(\operatorname{arcoth} x)' = \frac{1}{1 - x^2}$
 
-$(\operatorname{arsech} x)^{\prime} = -\frac{1}{x\sqrt{1-x^2}}$
+$(\operatorname{arsech} x)' = -\frac{1}{x \sqrt{1 - x^2}}$
 
-$(\operatorname{arcsch} x)^{\prime} = -\frac{1}{|x|\sqrt{1+x^2}}$
+$(\operatorname{arcsch} x)' = -\frac{1}{|x| \sqrt{1 + x^2}}$
+
+**Integration**
 
 $\int \sin x \ dx = -\cos x + C$
 
@@ -108,25 +112,25 @@ $\int \operatorname{sech} x \ dx = \arctan(\sinh x) + C$
 
 $\int \operatorname{csch} x \ dx = -\ln|\operatorname{csch} x + \coth x| + C$
 
-$\int \arcsin x \ dx = x \arcsin x + \sqrt{1-x^2} + C$
+$\int \arcsin x \ dx = x \arcsin x + \sqrt{1 - x^2} + C$
 
-$\int \arccos x \ dx = x \arccos x - \sqrt{1-x^2} + C$
+$\int \arccos x \ dx = x \arccos x - \sqrt{1 - x^2} + C$
 
-$\int \arctan x \ dx = x \arctan x - \frac{1}{2} \ln(1+x^2) + C$
+$\int \arctan x \ dx = x \arctan x - \frac{1}{2} \ln(1 + x^2) + C$
 
-$\int \operatorname{arccot} x \ dx = x \operatorname{arccot} x + \frac{1}{2} \ln(1+x^2) + C$
+$\int \operatorname{arccot} x \ dx = x \operatorname{arccot} x + \frac{1}{2} \ln(1 + x^2) + C$
 
 $\int \operatorname{arcsec} x \ dx = x \operatorname{arcsec} x - \operatorname{arcosh} |x| + C$
 
 $\int \operatorname{arccsc} x \ dx = x \operatorname{arccsc} x + \operatorname{arcosh} |x| + C$
 
-$\int \operatorname{arsinh} x \ dx = x \operatorname{arsinh} x - \sqrt{x^2+1} + C$
+$\int \operatorname{arsinh} x \ dx = x \operatorname{arsinh} x - \sqrt{x^2 + 1} + C$
 
-$\int \operatorname{arcosh} x \ dx = x \operatorname{arcosh} x - \sqrt{x^2-1} + C$
+$\int \operatorname{arcosh} x \ dx = x \operatorname{arcosh} x - \sqrt{x^2 - 1} + C$
 
-$\int \operatorname{artanh} x \ dx = x \operatorname{artanh} x + \frac{1}{2} \ln(1-x^2) + C$
+$\int \operatorname{artanh} x \ dx = x \operatorname{artanh} x + \frac{1}{2} \ln(1 - x^2) + C$
 
-$\int \operatorname{arcoth} x \ dx = x \operatorname{arcoth} x + \frac{1}{2} \ln(x^2-1) + C$
+$\int \operatorname{arcoth} x \ dx = x \operatorname{arcoth} x + \frac{1}{2} \ln(x^2 - 1) + C$
 
 $\int \operatorname{arsech} x \ dx = x \operatorname{arsech} x + \arcsin x + C$
 

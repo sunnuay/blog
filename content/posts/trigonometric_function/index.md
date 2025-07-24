@@ -20,6 +20,18 @@ $\operatorname{csch} z = \frac{2}{e^z - e^{-z}} = i \csc iz$
 
 ![](hyperbolic.svg)
 
+![](sinh.jpg)
+
+![](cosh.jpg)
+
+![](tanh.jpg)
+
+![](coth.jpg)
+
+![](sech.jpg)
+
+![](csch.jpg)
+
 **Inverse Hyperbolic Function**
 
 $\operatorname{arsinh} z = \operatorname{Ln}(z + \sqrt{z^2 + 1})$
@@ -35,6 +47,18 @@ $\operatorname{arsech} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z} + 1
 $\operatorname{arcsch} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$
 
 ![](inverse.svg)
+
+![](arsinh.jpg)
+
+![](arcosh.jpg)
+
+![](artanh.jpg)
+
+![](arcoth.jpg)
+
+![](arsech.jpg)
+
+![](arcsch.jpg)
 
 **Differentiation**
 

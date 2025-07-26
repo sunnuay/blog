@@ -6,59 +6,35 @@ description: Extensions and calculus
 
 **Hyperbolic Function**
 
-$\sinh z = \frac{e^z - e^{-z}}{2} = -i \sin iz$
+[$\sinh z = \frac{e^z - e^{-z}}{2} = -i \sin iz$](sinh.jpg)
 
-$\cosh z = \frac{e^z + e^{-z}}{2} = \cos iz$
+[$\cosh z = \frac{e^z + e^{-z}}{2} = \cos iz$](cosh.jpg)
 
-$\tanh z = \frac{e^z - e^{-z}}{e^z + e^{-z}} = -i \tan iz$
+[$\tanh z = \frac{e^z - e^{-z}}{e^z + e^{-z}} = -i \tan iz$](tanh.jpg)
 
-$\coth z = \frac{e^z + e^{-z}}{e^z - e^{-z}} = i \cot iz$
+[$\coth z = \frac{e^z + e^{-z}}{e^z - e^{-z}} = i \cot iz$](coth.jpg)
 
-$\operatorname{sech} z = \frac{2}{e^z + e^{-z}} = \sec iz$
+[$\operatorname{sech} z = \frac{2}{e^z + e^{-z}} = \sec iz$](sech.jpg)
 
-$\operatorname{csch} z = \frac{2}{e^z - e^{-z}} = i \csc iz$
+[$\operatorname{csch} z = \frac{2}{e^z - e^{-z}} = i \csc iz$](csch.jpg)
 
 ![](hyperbolic.svg)
 
-![](sinh.jpg)
-
-![](cosh.jpg)
-
-![](tanh.jpg)
-
-![](coth.jpg)
-
-![](sech.jpg)
-
-![](csch.jpg)
-
 **Inverse Hyperbolic Function**
 
-$\operatorname{arsinh} z = \operatorname{Ln}(z + \sqrt{z^2 + 1})$
+[$\operatorname{arsinh} z = \operatorname{Ln}(z + \sqrt{z^2 + 1})$](arsinh.jpg)
 
-$\operatorname{arcosh} z = \operatorname{Ln}(z + \sqrt{z + 1} \sqrt{z - 1})$
+[$\operatorname{arcosh} z = \operatorname{Ln}(z + \sqrt{z + 1} \sqrt{z - 1})$](arcosh.jpg)
 
-$\operatorname{artanh} z = \frac{1}{2} \operatorname{Ln}(\frac{1 + z}{1 - z})$
+[$\operatorname{artanh} z = \frac{1}{2} \operatorname{Ln}(\frac{1 + z}{1 - z})$](artanh.jpg)
 
-$\operatorname{arcoth} z = \frac{1}{2} \operatorname{Ln}(\frac{z + 1}{z - 1})$
+[$\operatorname{arcoth} z = \frac{1}{2} \operatorname{Ln}(\frac{z + 1}{z - 1})$](arcoth.jpg)
 
-$\operatorname{arsech} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z} + 1} \sqrt{\frac{1}{z} - 1})$
+[$\operatorname{arsech} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z} + 1} \sqrt{\frac{1}{z} - 1})$](arsech.jpg)
 
-$\operatorname{arcsch} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$
+[$\operatorname{arcsch} z = \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$](arcsch.jpg)
 
 ![](inverse.svg)
-
-![](arsinh.jpg)
-
-![](arcosh.jpg)
-
-![](artanh.jpg)
-
-![](arcoth.jpg)
-
-![](arsech.jpg)
-
-![](arcsch.jpg)
 
 **Differentiation**
 

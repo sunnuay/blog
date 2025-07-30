@@ -90,4 +90,6 @@ language: zh
 
 在 $\omega$ 一致的系统内，假设 $\lnot G$ 可证，即 $(\exist x)\text{Dem}(x, \text{sub}(n, 17))$ 可证，已知 $G$ **不可证**，故对每个自然数 $m$ 都有 $\lnot\text{Dem}(m, \text{sub}(n, 17))$ 可证，不满足 $\omega$ 一致性，故假设不成立。所以 $\lnot G$ 不可证。
 
+Rosser 改进了上述证明，通过构造 $(\exist x)(\text{Dem}(x, y) \land (\forall z < x)\lnot\text{Dem}(z, \overline{y}))$ 表示哥德尔数为 $y$ 的命题可证，将条件 $\omega$ 一致性削弱为一致性。
+
 ## 何物为真

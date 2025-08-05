@@ -2,7 +2,7 @@
 title: About
 ---
 
-Welcome!
+Welcome! ❤️
 
 I'm Sun Yuan, an anime fan.
 

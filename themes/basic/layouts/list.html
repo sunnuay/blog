@@ -5,7 +5,9 @@
         <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
         <small style="float:right">{{ .Date.Format "2006-01-02" }}</small>
     </div>
-    <div>{{ .Description }}</div>
+    <div>
+        {{ .Description }} - {{ .Params.Language | default .Site.Language}}
+    </div>
 </section>
 {{ end }}
 {{ end }}

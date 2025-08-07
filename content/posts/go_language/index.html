@@ -8,7 +8,7 @@ description: Less is more
 
 <p>
 This is the reference manual for the Go programming language.
-For more information and other documents, see <a href="/">go.dev</a>.
+For more information and other documents, see <a href="https://go.dev/">go.dev</a>.
 </p>
 
 <p>
@@ -1148,7 +1148,7 @@ Given a struct type <code>S</code> and a type name
 A field declaration may be followed by an optional string literal <i>tag</i>,
 which becomes an attribute for all the fields in the corresponding
 field declaration. An empty tag string is equivalent to an absent tag.
-The tags are made visible through a <a href="/pkg/reflect/#StructTag">reflection interface</a>
+The tags are made visible through a <a href="https://go.dev/pkg/reflect/#StructTag">reflection interface</a>
 and take part in <a href="#Type_identity">type identity</a> for structs
 but are otherwise ignored.
 </p>
@@ -5668,11 +5668,11 @@ myString('\u65e5')   // "\u65e5" == "日" == "\xe6\x97\xa5"
 </pre>
 
 Note: This form of conversion may eventually be removed from the language.
-The <a href="/pkg/cmd/vet"><code>go vet</code></a> tool flags certain
+The <a href="https://go.dev/pkg/cmd/vet"><code>go vet</code></a> tool flags certain
 integer-to-string conversions as potential errors.
 Library functions such as
-<a href="/pkg/unicode/utf8#AppendRune"><code>utf8.AppendRune</code></a> or
-<a href="/pkg/unicode/utf8#EncodeRune"><code>utf8.EncodeRune</code></a>
+<a href="https://go.dev/pkg/unicode/utf8#AppendRune"><code>utf8.AppendRune</code></a> or
+<a href="https://go.dev/pkg/unicode/utf8#EncodeRune"><code>utf8.EncodeRune</code></a>
 should be used instead.
 </li>
 </ol>
@@ -8527,7 +8527,7 @@ and returns the updated pointer <code>unsafe.Pointer(uintptr(ptr) + uintptr(len)
 The <code>len</code> argument must be of <a href="#Numeric_types">integer type</a> or an untyped <a href="#Constants">constant</a>.
 A constant <code>len</code> argument must be <a href="#Representability">representable</a> by a value of type <code>int</code>;
 if it is an untyped constant it is given type <code>int</code>.
-The rules for <a href="/pkg/unsafe#Pointer">valid uses</a> of <code>Pointer</code> still apply.
+The rules for <a href="https://go.dev/pkg/unsafe#Pointer">valid uses</a> of <code>Pointer</code> still apply.
 </p>
 
 <p>
@@ -8622,7 +8622,7 @@ A struct or array type has size zero if it contains no fields (or elements, resp
 <h3 id="Language_versions">Language versions</h3>
 
 <p>
-The <a href="/doc/go1compat">Go 1 compatibility guarantee</a> ensures that
+The <a href="https://go.dev/doc/go1compat">Go 1 compatibility guarantee</a> ensures that
 programs written to the Go 1 specification will continue to compile and run
 correctly, unchanged, over the lifetime of that specification.
 More generally, as adjustments are made and features added to the language,

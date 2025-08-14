@@ -135,29 +135,22 @@ void quick_sort(int arr[], int len)
 
 堆排序：
 ```c
-void heap(int arr[], int dad, int end)
+void heap(int arr[], int len, int i)
 {
-    int son = dad * 2 + 1;
-    while (son <= end)
-    {
-        if (son < end && arr[son] < arr[son + 1])
-            son++;
-        if (arr[dad] < arr[son])
-        {
-            swap(&arr[dad], &arr[son]);
-            dad = son;
-            son = dad * 2 + 1;
-        }
-        else
-            return;
-    }
+    int max = i, l = 2 * i + 1, r = 2 * i + 2;
+    if (l < len && arr[max] < arr[l])
+        max = l;
+    if (r < len && arr[max] < arr[r])
+        max = r;
+    if (max != i)
+        swap(&arr[i], &arr[max]), heap(arr, len, max);
 }
 void heap_sort(int arr[], int len)
 {
     for (int i = len / 2 - 1; i >= 0; i--)
-        heap(arr, i, len - 1);
+        heap(arr, len, i);
     for (int i = len - 1; i > 0; i--)
-        swap(&arr[0], &arr[i]), heap(arr, 0, i - 1);
+        swap(&arr[0], &arr[i]), heap(arr, i, 0);
 }
 ```
 ![](heap.png)

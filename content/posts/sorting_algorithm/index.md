@@ -45,7 +45,7 @@ AlphaDev 从汇编出发，以发现更快的排序和散列算法为目标，�
 |  bucket   |  $n + k$   |   $nk$   |  yes   |
 |   radix   | $d(n + k)$ | $n + k$  |  yes   |
 
-相同的算法也有不同的实现，此处算法的处理对象为数组，其中希尔排序的时间复杂度取决于所选序列，快速排序和堆排序为递归实现，$k$ 分别为计数范围、桶数、基数，$d$ 为阶数。此外，对前六个就地排序给出了示例图。
+相同的算法也有不同的实现，此处算法的处理对象为数组，其中希尔排序的平均时间复杂度取决于所选序列，快速排序和堆排序的空间复杂度取决于重复方式，$k$ 分别为计数范围、桶数、基数，$d$ 为阶数。
 
 插入排序：
 ```c
@@ -66,13 +66,12 @@ void insertion_sort(int arr[], int len)
 ```c
 void shell_sort(int arr[], int len)
 {
-    int gap[] = {1, 3, 5};
-    int n = sizeof(gap) / sizeof(int);
+    int n = 3, gap[] = {1, 3, 5};
     while (n--)
         for (int h = gap[n], i = h; i < len; i++)
             for (int j = i; j >= h; j -= h)
                 if (arr[j - h] > arr[j])
-                    swap(&arr[j - h], &arr[j]);
+                    swap(arr, j - h, j);
                 else
                     break;
 }
@@ -89,7 +88,7 @@ void selection_sort(int arr[], int len)
         for (int j = 0; j < i; j++)
             if (arr[j] > arr[max])
                 max = j;
-        swap(&arr[max], &arr[i]);
+        swap(arr, max, i);
     }
 }
 ```
@@ -102,7 +101,7 @@ void bubble_sort(int arr[], int len)
     for (int i = 0; i < len - 1; i++)
         for (int j = 0; j < len - 1 - i; j++)
             if (arr[j] > arr[j + 1])
-                swap(&arr[j], &arr[j + 1]);
+                swap(arr, j, j + 1);
 }
 ```
 ![](bubble.png)
@@ -121,7 +120,7 @@ void quick(int arr[], int l, int r)
         while (arr[j] > mid)
             j--;
         if (i <= j)
-            swap(&arr[i], &arr[j]), i++, j--;
+            swap(arr, i, j), i++, j--;
     }
     quick(arr, l, j);
     quick(arr, i, r);
@@ -143,14 +142,14 @@ void heap(int arr[], int len, int i)
     if (r < len && arr[max] < arr[r])
         max = r;
     if (max != i)
-        swap(&arr[i], &arr[max]), heap(arr, len, max);
+        swap(arr, i, max), heap(arr, len, max);
 }
 void heap_sort(int arr[], int len)
 {
     for (int i = len / 2 - 1; i >= 0; i--)
         heap(arr, len, i);
     for (int i = len - 1; i > 0; i--)
-        swap(&arr[0], &arr[i]), heap(arr, i, 0);
+        swap(arr, 0, i), heap(arr, i, 0);
 }
 ```
 ![](heap.png)
@@ -185,21 +184,19 @@ void merge_sort(int arr[], int len)
 ```c
 void counting_sort(int arr[], int len)
 {
-    int max = arr[0], min = arr[0];
-    for (int i = 1; i < len; i++)
-        if (arr[i] > max)
-            max = arr[i];
-        else if (arr[i] < min)
-            min = arr[i];
-    int ran = max - min + 1;
-    int tmp[ran];
-    for (int i = 0; i < ran; i++)
-        tmp[i] = 0;
+    int MIN = 0, MAX = 99;
+    int num = 100;
+    int cnt[num], tmp[len];
+    for (int i = 0; i < num; i++)
+        cnt[i] = 0;
     for (int i = 0; i < len; i++)
-        tmp[arr[i] - min]++;
-    for (int i = 0, j = 0; i < ran; i++)
-        while (tmp[i]--)
-            arr[j++] = i + min;
+        cnt[arr[i]]++;
+    for (int i = 1; i < num; i++)
+        cnt[i] += cnt[i - 1];
+    for (int i = len - 1; i >= 0; i--)
+        tmp[--cnt[arr[i]]] = arr[i];
+    for (int i = 0; i < len; i++)
+        arr[i] = tmp[i];
 }
 ```
 
@@ -207,26 +204,18 @@ void counting_sort(int arr[], int len)
 ```c
 void bucket_sort(int arr[], int len)
 {
-    int max = arr[0], min = arr[0];
-    for (int i = 1; i < len; i++)
-        if (arr[i] > max)
-            max = arr[i];
-        else if (arr[i] < min)
-            min = arr[i];
-    #define N 10
-    int gap = (max - min) / N + 1;
-    int bkt[N][len], cnt[N] = {0};
+    int MIN = 0, MAX = 99;
+    int num = 10, gap = 10;
+    int cnt[num], tmp[num][len];
+    for (int i = 0; i < num; i++)
+        cnt[i] = 0;
     for (int i = 0; i < len; i++)
-    {
-        int n = (arr[i] - min) / gap;
-        bkt[n][cnt[n]++] = arr[i];
-    }
-    for (int k = 0, i = 0; i < N; i++)
-    {
-        insertion_sort(bkt[i], cnt[i]);
+        tmp[arr[i] / gap][cnt[arr[i] / gap]++] = arr[i];
+    for (int i = 0; i < num; i++)
+        insertion_sort(tmp[i], cnt[i]);
+    for (int n = 0, i = 0; i < num; i++)
         for (int j = 0; j < cnt[i]; j++)
-            arr[k++] = bkt[i][j];
-    }
+            arr[n++] = tmp[i][j];
 }
 ```
 
@@ -234,20 +223,19 @@ void bucket_sort(int arr[], int len)
 ```c
 void radix_sort(int arr[], int len)
 {
-    int max = arr[0];
-    for (int i = 1; i < len; i++)
-        if (arr[i] > max)
-            max = arr[i];
-    int tmp[len];
-    for (int exp = 1; max / exp > 0; exp *= 10)
+    int MIN = 0, MAX = 99;
+    int num = 10;
+    int cnt[num], tmp[len];
+    for (int exp = 1; exp <= MAX; exp *= num)
     {
-        int cnt[10] = {0};
+        for (int i = 0; i < num; i++)
+            cnt[i] = 0;
         for (int i = 0; i < len; i++)
-            cnt[(arr[i] / exp) % 10]++;
-        for (int i = 1; i < 10; i++)
+            cnt[(arr[i] / exp) % num]++;
+        for (int i = 1; i < num; i++)
             cnt[i] += cnt[i - 1];
         for (int i = len - 1; i >= 0; i--)
-            tmp[--cnt[(arr[i] / exp) % 10]] = arr[i];
+            tmp[--cnt[(arr[i] / exp) % num]] = arr[i];
         for (int i = 0; i < len; i++)
             arr[i] = tmp[i];
     }

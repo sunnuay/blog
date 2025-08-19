@@ -49,10 +49,8 @@ AlphaDev 从汇编出发，以发现更快的排序和散列算法为目标，�
 
 插入排序：
 ```c
-void insertion_sort(int arr[], int len)
-{
-    for (int i = 1; i < len; i++)
-    {
+void insertion_sort(int arr[], int len) {
+    for (int i = 1; i < len; i++) {
         int j, key = arr[i];
         for (j = i - 1; j >= 0 && arr[j] > key; j--)
             arr[j + 1] = arr[j];
@@ -64,8 +62,7 @@ void insertion_sort(int arr[], int len)
 
 希尔排序：
 ```c
-void shell_sort(int arr[], int len)
-{
+void shell_sort(int arr[], int len) {
     int n = 3, gap[] = {1, 3, 5};
     while (n--)
         for (int h = gap[n], i = h; i < len; i++)
@@ -80,10 +77,8 @@ void shell_sort(int arr[], int len)
 
 选择排序：
 ```c
-void selection_sort(int arr[], int len)
-{
-    for (int i = len - 1; i > 0; i--)
-    {
+void selection_sort(int arr[], int len) {
+    for (int i = len - 1; i > 0; i--) {
         int max = i;
         for (int j = 0; j < i; j++)
             if (arr[j] > arr[max])
@@ -96,8 +91,7 @@ void selection_sort(int arr[], int len)
 
 冒泡排序：
 ```c
-void bubble_sort(int arr[], int len)
-{
+void bubble_sort(int arr[], int len) {
     for (int i = 0; i < len - 1; i++)
         for (int j = 0; j < len - 1 - i; j++)
             if (arr[j] > arr[j + 1])
@@ -108,13 +102,11 @@ void bubble_sort(int arr[], int len)
 
 快速排序：
 ```c
-void quick(int arr[], int l, int r)
-{
+void quick(int arr[], int l, int r) {
     if (l >= r)
         return;
     int mid = arr[(l + r) / 2], i = l, j = r;
-    while (i <= j)
-    {
+    while (i <= j) {
         while (arr[i] < mid)
             i++;
         while (arr[j] > mid)
@@ -125,8 +117,7 @@ void quick(int arr[], int l, int r)
     quick(arr, l, j);
     quick(arr, i, r);
 }
-void quick_sort(int arr[], int len)
-{
+void quick_sort(int arr[], int len) {
     quick(arr, 0, len - 1);
 }
 ```
@@ -134,8 +125,7 @@ void quick_sort(int arr[], int len)
 
 堆排序：
 ```c
-void heap(int arr[], int len, int i)
-{
+void heap(int arr[], int len, int i) {
     int max = i, l = 2 * i + 1, r = 2 * i + 2;
     if (l < len && arr[max] < arr[l])
         max = l;
@@ -144,8 +134,7 @@ void heap(int arr[], int len, int i)
     if (max != i)
         swap(arr, i, max), heap(arr, len, max);
 }
-void heap_sort(int arr[], int len)
-{
+void heap_sort(int arr[], int len) {
     for (int i = len / 2 - 1; i >= 0; i--)
         heap(arr, len, i);
     for (int i = len - 1; i > 0; i--)
@@ -156,8 +145,7 @@ void heap_sort(int arr[], int len)
 
 归并排序：
 ```c
-void merge(int arr[], int tmp[], int l, int r)
-{
+void merge(int arr[], int tmp[], int l, int r) {
     if (l >= r)
         return;
     int m = (l + r) / 2;
@@ -173,8 +161,7 @@ void merge(int arr[], int tmp[], int l, int r)
     for (i = l; i <= r; i++)
         arr[i] = tmp[i];
 }
-void merge_sort(int arr[], int len)
-{
+void merge_sort(int arr[], int len) {
     int tmp[len];
     merge(arr, tmp, 0, len - 1);
 }
@@ -182,8 +169,7 @@ void merge_sort(int arr[], int len)
 
 计数排序：
 ```c
-void counting_sort(int arr[], int len)
-{
+void counting_sort(int arr[], int len) {
     int MIN = 0, MAX = 99;
     int num = 100;
     int cnt[num], tmp[len];
@@ -202,8 +188,7 @@ void counting_sort(int arr[], int len)
 
 桶排序：
 ```c
-void bucket_sort(int arr[], int len)
-{
+void bucket_sort(int arr[], int len) {
     int MIN = 0, MAX = 99;
     int num = 10, gap = 10;
     int cnt[num], tmp[num][len];
@@ -221,13 +206,11 @@ void bucket_sort(int arr[], int len)
 
 基数排序：
 ```c
-void radix_sort(int arr[], int len)
-{
+void radix_sort(int arr[], int len) {
     int MIN = 0, MAX = 99;
     int num = 10;
     int cnt[num], tmp[len];
-    for (int exp = 1; exp <= MAX; exp *= num)
-    {
+    for (int exp = 1; exp <= MAX; exp *= num) {
         for (int i = 0; i < num; i++)
             cnt[i] = 0;
         for (int i = 0; i < len; i++)

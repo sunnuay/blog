@@ -6,17 +6,17 @@ description: Extensions and calculus
 
 **Hyperbolic Function**
 
-[$\sinh z$](sinh.jpg) $= \frac{e^z - e^{-z}}{2} = -i \sin iz$
+[$\sinh z$](sinh.jpg) $= \frac{e^z - e^{-z}}{2}$
 
-[$\cosh z$](cosh.jpg) $= \frac{e^z + e^{-z}}{2} = \cos iz$
+[$\cosh z$](cosh.jpg) $= \frac{e^z + e^{-z}}{2}$
 
-[$\tanh z$](tanh.jpg) $= \frac{e^z - e^{-z}}{e^z + e^{-z}} = -i \tan iz$
+[$\tanh z$](tanh.jpg) $= \frac{e^z - e^{-z}}{e^z + e^{-z}}$
 
-[$\coth z$](coth.jpg) $= \frac{e^z + e^{-z}}{e^z - e^{-z}} = i \cot iz$
+[$\coth z$](coth.jpg) $= \frac{e^z + e^{-z}}{e^z - e^{-z}}$
 
-[$\operatorname{sech} z$](sech.jpg) $= \frac{2}{e^z + e^{-z}} = \sec iz$
+[$\operatorname{sech} z$](sech.jpg) $= \frac{2}{e^z + e^{-z}}$
 
-[$\operatorname{csch} z$](csch.jpg) $= \frac{2}{e^z - e^{-z}} = i \csc iz$
+[$\operatorname{csch} z$](csch.jpg) $= \frac{2}{e^z - e^{-z}}$
 
 ![](hyperbolic.svg)
 

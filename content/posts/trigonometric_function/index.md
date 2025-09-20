@@ -68,11 +68,11 @@ $(\arccos x)' = -\frac{1}{\sqrt{1 - x^2}}$
 
 $(\arctan x)' = \frac{1}{1 + x^2}$
 
-$(\operatorname{arccot} x)' = -\frac{1}{1 + x^2}$
+$(\operatorname{arccot} x)' = (\arctan \frac{1}{x})'$
 
-$(\operatorname{arcsec} x)' = \frac{1}{|x| \sqrt{x^2 - 1}}$
+$(\operatorname{arcsec} x)' = (\arccos \frac{1}{x})'$
 
-$(\operatorname{arccsc} x)' = -\frac{1}{|x| \sqrt{x^2 - 1}}$
+$(\operatorname{arccsc} x)' = (\arcsin \frac{1}{x})'$
 
 $(\operatorname{arsinh} x)' = \frac{1}{\sqrt{x^2 + 1}}$
 
@@ -80,11 +80,11 @@ $(\operatorname{arcosh} x)' = \frac{1}{\sqrt{x^2 - 1}}$
 
 $(\operatorname{artanh} x)' = \frac{1}{1 - x^2}$
 
-$(\operatorname{arcoth} x)' = \frac{1}{1 - x^2}$
+$(\operatorname{arcoth} x)' = (\operatorname{artanh} \frac{1}{x})'$
 
-$(\operatorname{arsech} x)' = -\frac{1}{x \sqrt{1 - x^2}}$
+$(\operatorname{arsech} x)' = (\operatorname{arcosh} \frac{1}{x})'$
 
-$(\operatorname{arcsch} x)' = -\frac{1}{|x| \sqrt{1 + x^2}}$
+$(\operatorname{arcsch} x)' = (\operatorname{arsinh} \frac{1}{x})'$
 
 **Integration**
 
@@ -96,29 +96,29 @@ $\int \tan x \ dx = -\ln |\cos x| + C$
 
 $\int \cot x \ dx = \ln |\sin x| + C$
 
-$\int \sec x \ dx = \ln |\sec x + \tan x| + C$
+$\int \sec x \ dx = \operatorname{artanh} (\sin x) + C$
 
-$\int \csc x \ dx = -\ln |\csc x + \cot x| + C$
+$\int \csc x \ dx = -\operatorname{artanh} (\cos x) + C$
 
 $\int \sinh x \ dx = \cosh x + C$
 
 $\int \cosh x \ dx = \sinh x + C$
 
-$\int \tanh x \ dx = \ln(\cosh x) + C$
+$\int \tanh x \ dx = \ln (\cosh x) + C$
 
-$\int \coth x \ dx = \ln|\sinh x| + C$
+$\int \coth x \ dx = \ln |\sinh x| + C$
 
-$\int \operatorname{sech} x \ dx = \arctan(\sinh x) + C$
+$\int \operatorname{sech} x \ dx = \arctan (\sinh x) + C$
 
-$\int \operatorname{csch} x \ dx = -\ln|\operatorname{csch} x + \coth x| + C$
+$\int \operatorname{csch} x \ dx = -\operatorname{arcoth} (\cosh x) + C$
 
 $\int \arcsin x \ dx = x \arcsin x + \sqrt{1 - x^2} + C$
 
 $\int \arccos x \ dx = x \arccos x - \sqrt{1 - x^2} + C$
 
-$\int \arctan x \ dx = x \arctan x - \frac{1}{2} \ln(1 + x^2) + C$
+$\int \arctan x \ dx = x \arctan x - \frac{1}{2} \ln (1 + x^2) + C$
 
-$\int \operatorname{arccot} x \ dx = x \operatorname{arccot} x + \frac{1}{2} \ln(1 + x^2) + C$
+$\int \operatorname{arccot} x \ dx = x \operatorname{arccot} x + \frac{1}{2} \ln (1 + x^2) + C$
 
 $\int \operatorname{arcsec} x \ dx = x \operatorname{arcsec} x - \operatorname{arcosh} |x| + C$
 
@@ -128,9 +128,9 @@ $\int \operatorname{arsinh} x \ dx = x \operatorname{arsinh} x - \sqrt{x^2 + 1} 
 
 $\int \operatorname{arcosh} x \ dx = x \operatorname{arcosh} x - \sqrt{x^2 - 1} + C$
 
-$\int \operatorname{artanh} x \ dx = x \operatorname{artanh} x + \frac{1}{2} \ln(1 - x^2) + C$
+$\int \operatorname{artanh} x \ dx = x \operatorname{artanh} x + \frac{1}{2} \ln (1 - x^2) + C$
 
-$\int \operatorname{arcoth} x \ dx = x \operatorname{arcoth} x + \frac{1}{2} \ln(x^2 - 1) + C$
+$\int \operatorname{arcoth} x \ dx = x \operatorname{arcoth} x + \frac{1}{2} \ln (x^2 - 1) + C$
 
 $\int \operatorname{arsech} x \ dx = x \operatorname{arsech} x + \arcsin x + C$
 

@@ -68,11 +68,11 @@ $(\arccos x)' = -\frac{1}{\sqrt{1 - x^2}}$
 
 $(\arctan x)' = \frac{1}{1 + x^2}$
 
-$(\operatorname{arccot} x)' = (\arctan \frac{1}{x})'$
+$(\operatorname{arccot} x)' = -\frac{1}{1 + x^2}$
 
-$(\operatorname{arcsec} x)' = (\arccos \frac{1}{x})'$
+$(\operatorname{arcsec} x)' = \frac{1}{|x| \sqrt{x^2 - 1}}$
 
-$(\operatorname{arccsc} x)' = (\arcsin \frac{1}{x})'$
+$(\operatorname{arccsc} x)' = -\frac{1}{|x| \sqrt{x^2 - 1}}$
 
 $(\operatorname{arsinh} x)' = \frac{1}{\sqrt{x^2 + 1}}$
 
@@ -80,11 +80,11 @@ $(\operatorname{arcosh} x)' = \frac{1}{\sqrt{x^2 - 1}}$
 
 $(\operatorname{artanh} x)' = \frac{1}{1 - x^2}$
 
-$(\operatorname{arcoth} x)' = (\operatorname{artanh} \frac{1}{x})'$
+$(\operatorname{arcoth} x)' = \frac{1}{1 - x^2}$
 
-$(\operatorname{arsech} x)' = (\operatorname{arcosh} \frac{1}{x})'$
+$(\operatorname{arsech} x)' = -\frac{1}{x \sqrt{1 - x^2}}$
 
-$(\operatorname{arcsch} x)' = (\operatorname{arsinh} \frac{1}{x})'$
+$(\operatorname{arcsch} x)' = -\frac{1}{|x| \sqrt{1 + x^2}}$
 
 **Integration**
 

@@ -1,0 +1,5 @@
+# blog
+
+```bash
+hugo server
+```

@@ -5,7 +5,7 @@ description: From mathematics to philosophy
 language: zh
 ---
 
-![](herta.webp)
+![herta](herta.webp)
 
 ## 哥德尔不完备定理
 

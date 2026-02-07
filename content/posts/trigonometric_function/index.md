@@ -4,7 +4,7 @@ date: 2025-01-01
 description: Extensions and calculus
 ---
 
-**Hyperbolic Function**
+Hyperbolic Function
 
 [$\sinh z$](sinh.jpg) $= \frac{e^z - e^{-z}}{2}$
 
@@ -18,9 +18,9 @@ description: Extensions and calculus
 
 [$\operatorname{csch} z$](csch.jpg) $= \frac{2}{e^z - e^{-z}}$
 
-![](hyperbolic.svg)
+![hyperbolic](hyperbolic.svg)
 
-**Inverse Hyperbolic Function**
+Inverse Hyperbolic Function
 
 [$\operatorname{arsinh} z$](arsinh.jpg) $= \operatorname{Ln}(z + \sqrt{z^2 + 1})$
 
@@ -34,9 +34,9 @@ description: Extensions and calculus
 
 [$\operatorname{arcsch} z$](arcsch.jpg) $= \operatorname{Ln}(\frac{1}{z} + \sqrt{\frac{1}{z^2} + 1})$
 
-![](inverse.svg)
+![inverse](inverse.svg)
 
-**Differentiation**
+Differentiation
 
 $(\sin x)' = \cos x$
 
@@ -86,7 +86,7 @@ $(\operatorname{arsech} x)' = -\frac{1}{x \sqrt{1 - x^2}}$
 
 $(\operatorname{arcsch} x)' = -\frac{1}{|x| \sqrt{1 + x^2}}$
 
-**Integration**
+Integration
 
 $\int \sin x \ dx = -\cos x + C$
 
